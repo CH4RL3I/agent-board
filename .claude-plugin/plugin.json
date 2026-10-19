@@ -1,0 +1,16 @@
+{
+  "name": "agent-board",
+  "version": "0.1.0",
+  "description": "Animated pixel agents above the prompt: this session's subagents and teammates plus your other Claude sessions, with what each is doing.",
+  "author": { "name": "Emilio Gappa" },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "extraSessionDirs": {
+      "type": "string",
+      "title": "Extra session directories",
+      "description": "Comma-separated directories with Claude session files to include besides ~/.claude/sessions and ~/.claude-*/sessions.",
+      "default": ""
+    }
+  }
+}

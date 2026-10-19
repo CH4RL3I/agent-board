@@ -1,0 +1,12 @@
+{
+  "name": "agent-board",
+  "owner": { "name": "Emilio Gappa" },
+  "description": "Animated pixel agents above the Claude Code prompt.",
+  "plugins": [
+    {
+      "name": "agent-board",
+      "source": "./",
+      "description": "Animated pixel agents above the prompt for subagents, teammates and your other Claude sessions."
+    }
+  ]
+}
